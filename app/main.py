@@ -40,11 +40,7 @@ class Browser:
 
 if __name__ == '_main_':
     browser = Browser ('drivers\chromedriver.exe')
-    #browser.open_page('https://www.google.com')
-    #time.sleep(3)
-    #browser.open_page('https://pycontent.org')
-    #time.sleep(3)
-    #browser.close_browser()
+
     browser.open_page('https://www.linkedin.com/signup/cold-join')
     time.sleep(10)
 
